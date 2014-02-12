@@ -1,0 +1,16 @@
+[
+{
+  "modid": "sharkpetmod",
+  "name": "Shark Pet Mod",
+  "description": "Example placeholder mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["Hotel_California"],
+  "credits": "irc.esper.net/#minecraftforge",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
