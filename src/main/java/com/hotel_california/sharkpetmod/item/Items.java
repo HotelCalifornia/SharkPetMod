@@ -8,6 +8,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 //but for now, ,here's this clunky piece of shit
 
 //correction: this is a train-wreck, and i need to take a break ~Hotel_California, 18.Feb.2014, 10:10 PM
+//i'll start from scratch at some point
 
 import net.minecraft.item.Item;
 //import net.minecraft.creativetab.CreativeTabs;
