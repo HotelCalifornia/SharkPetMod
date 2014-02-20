@@ -1,6 +1,6 @@
-package tk.hotel_california.sharkpetmod.block.client;
+package tk.hotel_california.sharkpetmod.client;
 
-import tk.hotel_california.sharkpetmod.block.CommonProxy;
+import tk.hotel_california.sharkpetmod.CommonProxy;
 
 
 public class ClientProxy extends CommonProxy {

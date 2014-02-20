@@ -1,7 +1,9 @@
-package tk.hotel_california.sharkpetmod.block;
+package tk.hotel_california.sharkpetmod;
 //MC imports
+
 //egocentric imports
-import tk.hotel_california.sharkpetmod.block.item.Items;
+import tk.hotel_california.sharkpetmod.block.Blocks;
+import tk.hotel_california.sharkpetmod.item.Items;
 //FML imports
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
@@ -17,7 +19,9 @@ public class SharkPetMod {
 	@Instance(value = "sharkpetmod")
 	public static SharkPetMod instance;
 	
-	@SidedProxy(clientSide = "tk.hotel_california.sharkpetmod.block.client.ClientProxy", serverSide = "tk.hotel_california.sharkpetmod.block.CommonProxy")
+	@SidedProxy(clientSide =
+    "tk.hotel_california.sharkpetmod.client.ClientProxy",
+    serverSide = "tk.hotel_california.sharkpetmod.CommonProxy")
 	public static CommonProxy proxy;
 	
 	@EventHandler

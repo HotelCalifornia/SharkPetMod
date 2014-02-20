@@ -1,4 +1,4 @@
-package tk.hotel_california.sharkpetmod.block;
+package tk.hotel_california.sharkpetmod.entity;
 
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.world.World;

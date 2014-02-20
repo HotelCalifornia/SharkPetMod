@@ -29,6 +29,9 @@ public class Blocks {
 	}
 	public static void fullRegister() {
 		initBlocks();
+        registerRecipes();
+        registerShapelessRecipes();
+        registerOtherRecipes();
 		registerBlocks();
 	}
 
