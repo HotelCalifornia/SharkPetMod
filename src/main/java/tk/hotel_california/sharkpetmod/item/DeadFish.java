@@ -1,4 +1,4 @@
-package com.hotel_california.sharkpetmod.item;
+package tk.hotel_california.sharkpetmod.block.item;
 
 
 import net.minecraft.item.Item;

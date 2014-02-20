@@ -1,4 +1,4 @@
-package com.hotel_california.sharkpetmod.item;
+package tk.hotel_california.sharkpetmod.block.item;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -15,7 +15,6 @@ import net.minecraft.item.Item;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 class PreconditionException extends Exception {
     public PreconditionException(String s) {

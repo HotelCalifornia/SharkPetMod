@@ -1,10 +1,10 @@
-package com.hotel_california.sharkpetmod.block;
-import com.hotel_california.sharkpetmod.block.material.ModMaterials;
+package tk.hotel_california.sharkpetmod.block;
+import tk.hotel_california.sharkpetmod.block.material.ModMaterials;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 
 import net.minecraft.block.Block;
-import net.minecraft.creativetab.CreativeTabs;
+
 public class Blocks {
 	public static class declareBlocks {
 		public static Block deadFishBlock;

@@ -1,15 +1,12 @@
-package com.hotel_california.sharkpetmod.block;
+package tk.hotel_california.sharkpetmod.block;
 
 import java.util.Random;
 
-import com.hotel_california.sharkpetmod.SharkPetMod;
-import com.hotel_california.sharkpetmod.block.material.ModMaterials;
-import com.hotel_california.sharkpetmod.item.DeadFish;
-import com.hotel_california.sharkpetmod.item.Items;
+import tk.hotel_california.sharkpetmod.block.material.ModMaterials;
+import tk.hotel_california.sharkpetmod.block.item.Items;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
-import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 

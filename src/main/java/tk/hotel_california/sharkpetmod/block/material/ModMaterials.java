@@ -1,4 +1,4 @@
-package com.hotel_california.sharkpetmod.block.material;
+package tk.hotel_california.sharkpetmod.block.material;
 
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
