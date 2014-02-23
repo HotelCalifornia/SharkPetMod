@@ -3,6 +3,7 @@ package tk.hotel_california.sharkpetmod;
 
 //egocentric imports
 import tk.hotel_california.sharkpetmod.block.Blocks;
+import tk.hotel_california.sharkpetmod.event.EventManager;
 import tk.hotel_california.sharkpetmod.item.Items;
 //FML imports
 import cpw.mods.fml.common.Mod;
@@ -12,12 +13,14 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.eventhandler.
 
 @Mod(modid = "sharkpetmod", name = "Shark Pet Mod", version = "0.0.1")
 
 public class SharkPetMod {
 	@Instance(value = "sharkpetmod")
 	public static SharkPetMod instance;
+    EventManager eventmanager = new EventManager();
 	
 	@SidedProxy(clientSide =
     "tk.hotel_california.sharkpetmod.client.ClientProxy",
